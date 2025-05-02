@@ -11,9 +11,9 @@ function showNewMenu()
 
 function createCampaign()
 {
-	localStorage.setItem("name", document.getElementById("name")).value);
-	localStorage.setItem("gridX", document.getElementById("gridX")).value);
-	localStorage.setItem("gridY", document.getElementById("gridY")).value);
+	localStorage.setItem("name", document.getElementById("name").value);
+	localStorage.setItem("gridX", document.getElementById("gridX").value);
+	localStorage.setItem("gridY", document.getElementById("gridY").value);
 	window.location.href = "./new";
 }
 
