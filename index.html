@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<html>
+		<link rel="icon" href="src/icon.png">
+		<title>DndWeb</title>
+		<meta charset="utf-8">  
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" />
+	</html>
+	<body>
+		<div id="bar">
+			<img src="src/icon.png"/>
+			<h1 id="campaignName">Nome Campagna</h1>
+		</div>
+		
+		<div id="menu">
+			<div class="new">
+				<button id="newButton" onclick="showNewMenu()">
+					<h1>New Campaign</h1>
+				</button>
+			</div>
+			<div class="load">
+				<button id="loadButton" onclick="">
+					<h1>Load Campaign</h1>
+				</button>
+			</div>
+		</div>
+		
+		<div id="newMenu">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name">
+			<label for="gridX">Grid X</label>
+			<input type="number" id="gridX" name="gridX">
+			<label for="gridY">Grid Y</label>
+			<input type="number" id="gridY" name="gridY">
+			<input type="submit" value="Create">
+		</div>
+		
+		<!--<a href="" id="a">click here to download your file</a>
+		<button onclick="download('file text', 'myfilename.txt', 'text/plain')">Create file</button>   stole form reddit   -->
+	
+	
+		<script src="script.js"></script>
+	</body>
+</html>
