@@ -3,6 +3,11 @@
 	margin:0;
 }
 
+body{
+	overflow-x: hidden;
+	overflow: hidden;
+}
+
 #bar{
 	display: flex;
 	width: 95%;
@@ -82,6 +87,8 @@
 }
 #grid{
 	position: absolute;
+	overflow: hidden;
 }
 .emptyTile{
+	margin-bottom: -5px;
 }
