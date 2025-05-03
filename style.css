@@ -18,3 +18,14 @@
 	width: 80px;
 	height: 80px;
 }
+
+.tileBut{
+	width:100px;
+	height:100px;
+}
+.tile{
+	position:absolute;
+}
+#grid{
+	zoom:1;
+}
