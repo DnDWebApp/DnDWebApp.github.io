@@ -5,7 +5,7 @@ newMenu.style.display = "none";
 
 function showNewMenu()
 {
-	newMenu.style.display = "flex";
+	newMenu.style.display = "block";
 	menu.style.display = "none";
 }
 

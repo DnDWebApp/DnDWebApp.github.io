@@ -17,8 +17,6 @@ function createGrid()
 			var emptyTile = document.createElement("img");
 			emptyTile.style.width="100px";
 			emptyTile.style.height="100px";
-			emptyTile.style.padding="0";
-			emptyTile.style.margin="0";
 			emptyTile.src="src/emptyTile.png";
 			emptyTile.id = "emptyTile" + cont;
 			emptyTile.classList.add("emptyTile");
