@@ -2,7 +2,11 @@ createGrid();
 dragElement(document.getElementById("tile"));
 
 
-
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(600, 800);
+ctx.stroke();
 
 function createGrid()
 {
