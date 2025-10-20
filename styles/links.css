@@ -1,0 +1,50 @@
+#links{
+	width: 270px;
+    left: calc(100% - 500px);
+    bottom: 25px;
+	position: absolute;
+}
+#yt{
+	display: inline-block;
+	height: 100%;
+	padding-right: 5%;
+}
+#ig{
+	display: inline-block;
+	height: 100%;
+	padding-right: 5%;
+}
+#github{
+	display: inline-block;
+	height: 100%;
+	padding-right: 5%;
+}
+#twitch{
+	display: inline-block;
+	height: 100%;
+	padding-right: 5%;
+}
+#yt img{
+	width: 64px;
+	height: 45px;
+	padding: 0px;
+	margin-left: 0px;
+}
+#ig img{
+	width: 45px;
+	height: 45px;
+	padding: 0px;
+	margin-left: 0px;
+}
+#github img{
+	width: 45px;
+	height: 45px;
+	padding: 0px;
+	margin-left: 0px;
+}
+#twitch img{
+	width: 45px;
+	height: 45px;
+	padding: 0px;
+	margin-left: 0px;
+}

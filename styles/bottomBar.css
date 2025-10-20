@@ -1,0 +1,33 @@
+#bottomBar{
+    left: 0;
+	display: flex;
+	width: 95%;
+    height: 100px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+	bottom: 10px;
+	background-color: black;
+	border-radius: 10px;
+    position: absolute;
+}
+#bottomBar h1{
+	padding-top: 10px;
+	margin-left: 10px;
+	color:white;
+}
+#bottomBar img{
+	padding-top: 10px;
+	margin-left: 10px;
+	width: 80px;
+	height: 80px;
+}
+@media screen and (min-width: 440px){
+	#bottomBar{
+		height: 150px;
+	}
+}
+@media screen and (min-width: 750px){
+	#bottomBar{
+		height: 100px;
+	}
+}

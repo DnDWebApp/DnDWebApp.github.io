@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html>
-	<html>
-		<link rel="icon" href="src/icon.png">
-		<title>DndWeb</title>
-		<meta charset="utf-8">  
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="style.css" />
-	</html>
-	<body>
-		<div id="bar">
-			<img src="src/icon.png"/>
-			<h1 id="campaignName">Dnd Web Application</h1>
-		</div>
-		
-		<div id="menu">
-			<div class="new">
-				<button id="newButton" onclick="showNewMenu()">
-					<h1>New Campaign</h1>
-				</button>
-			</div>
-			<div class="load">
-				<button id="loadButton" onclick="">
-					<h1>Load Campaign</h1>
-				</button>
-			</div>
-		</div>
-		
-		<div id="newMenu">
-			<label class="in" for="name">Name</label>
-			<input type="text" id="name" name="name"><br>
-			<label class="in" for="gridX">Grid X</label>
-			<input type="number" id="gridX" name="gridX"><br>
-			<label class="in" for="gridY">Grid Y</label>
-			<input type="number" id="gridY" name="gridY"><br>
-			<button class="in" onclick="createCampaign()">Create</button>
-		</div>
-		
-		<!--<a href="" id="a">click here to download your file</a>
-		<button onclick="download('file text', 'myfilename.txt', 'text/plain')">Create file</button>   stole form reddit   -->
-	
-	
-		<script src="menuScript.js"></script>
-	</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DnD Web Application</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="icon" href="src/icon.png">
+        <link rel="stylesheet" href="styles/titleBar.css">
+        <link rel="stylesheet" href="styles/bottomBar.css">
+        <link rel="stylesheet" href="styles/links.css">
+    </head>
+    <body>
+        <div id="bar">
+            <a href="https://d2008web.github.io">
+                <img src="src/icon.png"/>
+            </a>
+            <a href="https://d2008web.github.io" style="text-decoration:none;">
+                <h1>Dennis2008's Website</h1>
+            </a>
+        </div>
+
+        <div id="page">
+
+        </div>
+
+        <div id="bottomBar">
+            <img src="src/icon.png"/>
+            <h1>Made by Dennis2008</h1>
+            <div id="links" class="index">
+                <div id="yt">
+                    <a href="https://www.youtube.com/@Dennis2008YT"><img src="src/ytlogo.png"/></a>
+                </div>
+                <div id="ig">
+                    <a href="https://www.instagram.com/dennis2008yt/"><img src="src/iglogo.png"/></a>
+                </div>
+                <div id="github">
+                    <a href="https://github.com/Dennis2008YT"><img src="src/githublogo.png"/></a>
+                </div>
+                <div id="twitch">
+                    <a href="https://www.twitch.tv/dennis2008yt"><img src="src/twitchlogo.png"/></a>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
